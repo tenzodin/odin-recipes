@@ -93,4 +93,9 @@ text-align: center;
   background-position: center top;
   height: 10vh; /* Adjust as needed */
 }
+
+.left-align
+{
+  text-align: left;
+}
   
