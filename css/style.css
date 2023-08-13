@@ -5,9 +5,7 @@
 
 
 body {
-    background-color: whitesmoke;
-    text-align: center;
-    list-style-position: inside;
+    background-color:#DAD0CE;
     margin-bottom: 100px; 
 }
 
@@ -45,15 +43,16 @@ text-align: center;
 .text-box {
     width: 1000px; /* Set the desired width for the text box */
     margin: 0 auto; /* Center the text box horizontally */
-    border: 0px solid #ccc; /* Optional: Add a border for visualization */
+    border: 10px solid rgb(0, 0, 0)000; /* Optional: Add a border for visualization */
     padding: 10px; /* Optional: Add padding for spacing */
   }
 
   .text-box-list {
     width: 500px; /* Set the desired width for the text box */
     margin: 0 auto; /* Center the text box horizontally */
-    border: 0px solid #ccc; /* Optional: Add a border for visualization */
-    padding: 10px; /* Optional: Add padding for spacing */
+    border: 2.5px solid black; /* Optional: Add a border for visualization */
+    padding: 50px; /* Optional: Add padding for spacing */
+    border-radius: 20px;
   }
 
   .line-height {
@@ -64,5 +63,34 @@ text-align: center;
     font-family: 'Times New Roman', Times, serif;
   }
 
-  
+.black-bar {
 
+  color: whitesmoke;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 50px;
+}
+
+.box {
+  background-color: #1B2625;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 10vh; /* Adjust as needed */
+
+  border: 1px solid #ccc;
+  padding: 28px;
+  overflow: hidden;
+  box-sizing: border-box;
+  
+ 
+}
+
+.background-img {
+  background-image: url(../img/dinner-table-crop.jpg); /* Replace with your image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 10vh; /* Adjust as needed */
+}
+  
