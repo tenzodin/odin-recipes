@@ -1,3 +1,12 @@
+* {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 .border {
     border: 25px black;
 }
@@ -41,25 +50,33 @@ text-align: center;
 }
 
 .text-box {
+  background: #748991;
+  color: white;
     width: 1000px; /* Set the desired width for the text box */
     margin: 0 auto; /* Center the text box horizontally */
     border: 10px solid rgb(0, 0, 0)000; /* Optional: Add a border for visualization */
     padding: 10px; /* Optional: Add padding for spacing */
+    border-radius: 10px;
   }
-
-  .text-box-list {
-    width: 500px; /* Set the desired width for the text box */
+.text-box-list {
+  background: #B87730;
+  color: white;
+    width: 700px; /* Set the desired width for the text box */
     margin: 0 auto; /* Center the text box horizontally */
-    border: 2.5px solid black; /* Optional: Add a border for visualization */
+    
     padding: 50px; /* Optional: Add padding for spacing */
     border-radius: 20px;
   }
 
-  .line-height {
+  
+  
+  
+.line-height {
     line-height: 1.0
   }
 
-  .times-new-roman {
+  
+.times-new-roman {
     font-family: 'Times New Roman', Times, serif;
   }
 
@@ -98,4 +115,4 @@ text-align: center;
 {
   text-align: left;
 }
-  
+
