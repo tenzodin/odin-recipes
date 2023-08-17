@@ -14,7 +14,7 @@
 
 
 body {
-    background-color:#DAD0CE;
+    background-color: white;
     margin-bottom: 100px; 
 }
 
@@ -50,8 +50,8 @@ text-align: center;
 }
 
 .text-box {
-  background: #748991;
-  color: white;
+  background: white;
+  color: black;
     width: 1000px; /* Set the desired width for the text box */
     margin: 0 auto; /* Center the text box horizontally */
     border: 10px solid rgb(0, 0, 0)000; /* Optional: Add a border for visualization */
@@ -116,3 +116,7 @@ text-align: center;
   text-align: left;
 }
 
+.bot {
+  margin-top: auto;
+  text-align: center;
+}
