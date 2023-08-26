@@ -1,122 +1,28 @@
-* {
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  background-image: url(../img/2people-clouds-crop.png); /* Replace with your image URL */
+  background-size: 100% ;
+ 
+  background-position-y: 0px;
+  padding-bottom: 20px; /* Optional padding at the bottom of the container */
 }
 
-
-
-.border {
-    border: 25px black;
-}
-
-
-
-body {
-    background-color: white;
-    margin-bottom: 100px; 
-}
-
-.top-sect {
-
-text-align: center;
-}
-
-.title {
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 30px;
-}
-
-.contents {
-    font-family: 'sans-serif';
-    color: black;
-    font-size: 25px;
-    text-align: center;
-}
-
-.stir-fry-png 
-{
-  height: auto;
-  width: 500px;
-  display: block;
-  margin: 0 auto;
+.sub-container-nav {
+    display: flex;
+    justify-content: center;
 
 }
 
-.mid {
-    text-align: center;
-}
-
-.text-box {
-  background: white;
+.title-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
-    width: 1000px; /* Set the desired width for the text box */
-    margin: 0 auto; /* Center the text box horizontally */
-    border: 10px solid rgb(0, 0, 0)000; /* Optional: Add a border for visualization */
-    padding: 10px; /* Optional: Add padding for spacing */
-    border-radius: 10px;
-  }
-.text-box-list {
-  background: #B87730;
-  color: white;
-    width: 700px; /* Set the desired width for the text box */
-    margin: 0 auto; /* Center the text box horizontally */
-    
-    padding: 50px; /* Optional: Add padding for spacing */
-    border-radius: 20px;
-  }
-
-  
-  
-  
-.line-height {
-    line-height: 1.0
-  }
-
-  
-.times-new-roman {
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-.black-bar {
-
-  color: whitesmoke;
   padding: 10px 0;
   text-align: center;
   font-size: 50px;
 }
 
-.box {
-  background-color: #1B2625;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-  height: 10vh; /* Adjust as needed */
-
-  border: 1px solid #ccc;
-  padding: 28px;
-  overflow: hidden;
-  box-sizing: border-box;
-  
- 
-}
-
-.background-img {
-  background-image: url(../img/dinner-table-crop.jpg); /* Replace with your image URL */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-  height: 10vh; /* Adjust as needed */
-}
-
-.left-align
-{
-  text-align: left;
-}
-
-.bot {
-  margin-top: auto;
-  text-align: center;
+.the-list{
+  gap: 50px;
 }
