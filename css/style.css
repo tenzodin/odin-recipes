@@ -1,28 +1,89 @@
-.container {
-  display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center horizontally */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+header {
   background-image: url(../img/2people-clouds-crop.png); /* Replace with your image URL */
-  background-size: 100% ;
- 
+  background-size: 100%;
+  height: 15vh;
+
   background-position-y: 0px;
   padding-bottom: 20px; /* Optional padding at the bottom of the container */
 }
 
-.sub-container-nav {
-    display: flex;
-    justify-content: center;
-
+@media (max-width: 830px) {
+  header {
+    height: 18vh;
+  }
+}
+.header-wrapper {
+  display: flex;
+  align-items: center; /* Center horizontally */
+  margin: 0 auto;
+  max-width: 1000px;
+  justify-content: space-between;
 }
 
-.title-text {
+.heading-container {
+  width: 40%;
+}
+
+h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
-  padding: 10px 0;
-  text-align: center;
-  font-size: 50px;
+  padding: 0.5rem;
+  font-size: 2rem;
+  margin: 0;
 }
 
-.the-list{
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+nav > ul {
   gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+nav > ul > li {
+  list-style: none;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+}
+nav > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 1rem;
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (max-width: 830px) {
+  main {
+    min-height: 77vh;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid #c0c0c0;
+  height: 5vh;
 }
