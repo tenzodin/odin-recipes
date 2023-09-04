@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: Montserrat, Verdana, sans-serif;
+  line-height: 1.6;
 }
 
 header {
@@ -15,11 +16,17 @@ header {
   background-position-y: 0px;
   padding-bottom: 20px; /* Optional padding at the bottom of the container */
 }
+
+@media (max-width: 830px) {
+  header {
+    height: 18vh;
+  }
+}
 .header-wrapper {
   display: flex;
   align-items: center; /* Center horizontally */
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
   justify-content: space-between;
 }
 
@@ -30,8 +37,9 @@ header {
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   font-size: 2rem;
+  margin: 0;
 }
 
 nav {
@@ -61,8 +69,14 @@ nav > ul > li > a:hover {
 main {
   padding: 1rem;
   min-height: 80vh;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
+}
+
+@media (max-width: 830px) {
+  main {
+    min-height: 77vh;
+  }
 }
 
 footer {
