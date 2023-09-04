@@ -39,11 +39,22 @@ nav {
   padding: 2rem;
 }
 
-nav ul {
+nav > ul {
   gap: 50px;
   display: flex;
   justify-content: center;
   align-content: center;
+}
+
+nav > ul > li {
+  list-style: none;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+}
+nav > ul > li > a:hover {
+  text-decoration: underline;
 }
 
 main {
