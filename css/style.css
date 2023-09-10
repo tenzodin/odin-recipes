@@ -9,12 +9,12 @@ body {
 }
 
 header {
-  background-image: url(../img/2people-clouds-crop.png); /* Replace with your image URL */
+  background-color: black;
   background-size: 100%;
   height: 15vh;
 
   background-position-y: 0px;
-  padding-bottom: 20px; /* Optional padding at the bottom of the container */
+  padding-bottom: 20px; 
 }
 
 @media (max-width: 830px) {
@@ -24,7 +24,7 @@ header {
 }
 .header-wrapper {
   display: flex;
-  align-items: center; /* Center horizontally */
+  align-items: center;
   margin: 0 auto;
   max-width: 1000px;
   justify-content: space-between;
@@ -34,13 +34,24 @@ header {
   width: 40%;
 }
 
-h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: black;
+.mainName {
+  font-family: Montserrat, Verdana, sans-serif;
+  color: white;
   padding: 0.5rem;
   font-size: 2rem;
   margin: 0;
+  display: flex;
+  width: 1rem;
+  flex-wrap: wrap;
 }
+
+.mainName > a {
+  text-decoration: none;
+}
+.mainName > a:hover {
+  text-decoration: underline;
+}
+
 
 nav {
   display: flex;
@@ -57,11 +68,13 @@ nav > ul {
 
 nav > ul > li {
   list-style: none;
+
 }
 
 nav > ul > li > a {
   text-decoration: none;
 }
+
 nav > ul > li > a:hover {
   text-decoration: underline;
 }
